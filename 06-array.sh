@@ -5,4 +5,4 @@
 persons=("ramesh" "suresh" "sachin")
 
 echo "first person is: ${persons[0]}"
-echo "all persons is: ${persons[@]}
+echo "all persons is: ${persons[@]}"
