@@ -1,6 +1,6 @@
 #!/bin/bash
-persion1=$1
-persion2=$2
+persion1=suresh
+persion2=ramesh
 echo "$persion1 : hi $persion2"
 echo "$persion2 : hi $rersion1"
 echo "$persion1 : how is your life"
