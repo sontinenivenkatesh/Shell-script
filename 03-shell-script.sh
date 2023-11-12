@@ -1,6 +1,6 @@
 #!/bin/bash
-persion1=suresh
-persion2=ramesh
+persion1=$1
+persion2=$2
 DATE=$(date)
 echo "$persion1 : hi $persion2"
 echo "$persion2 : hi $persion1"
