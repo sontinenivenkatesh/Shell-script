@@ -1,5 +1,5 @@
 #!/bin/bash
-
+USERID=$(id -u)
 # this function should validate the previous command and inform user it is success or not
 
 validate(){
