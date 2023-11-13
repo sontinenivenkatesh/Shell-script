@@ -3,7 +3,7 @@
 
 USERID=$(id -u)
 
-if [ $userid -ne o ]
+if [ $userid -ne 0 ]
 
 then
    echo "error: please run this script with root access"
