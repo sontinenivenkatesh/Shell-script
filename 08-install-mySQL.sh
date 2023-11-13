@@ -11,3 +11,5 @@ then
 exit 1
 
 fi
+
+yum install mySQL -y
