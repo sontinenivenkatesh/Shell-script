@@ -28,6 +28,6 @@ fi
 
    validate $? "installing mysql"
 
-   yum install postpix -y
+   yum install postfix -y
 
    validate $? "installing postfix"
