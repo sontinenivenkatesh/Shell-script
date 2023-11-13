@@ -6,7 +6,7 @@ validate(){
 #$1 -- it will receive the arguments
 #$2 -- it will show the result of argument
 
-if [ $1 -na 0 ]
+if [ $1 -ne 0 ]
 
 then
     echo "$2 .... failur"
