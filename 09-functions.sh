@@ -15,11 +15,11 @@ validate(){
 if [ $1 -ne 0 ]
 
 then
-    echo "$2 .... -e $R failur $N"
+    echo -e "$2 ....  $R failur $N"
     exit 1
 
 else
-   echo "$2 .... -e $G success $N"
+   echo -e "$2 ....  $G success $N"
 fi
 
 }
