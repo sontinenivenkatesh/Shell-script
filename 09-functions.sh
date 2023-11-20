@@ -4,6 +4,10 @@ DATE=(DATE +%F)
 SCRIPT_NAME=$0
 LOGFILE=/tmp/$SCRIPT_NAME.$DATE.log
 
+R="\e[31m"
+G="\e[32m"
+N="\e[0m"
+
 validate(){
 #$1 -- it will receive the arguments
 #$2 -- it will show the result of argument
@@ -11,11 +15,11 @@ validate(){
 if [ $1 -ne 0 ]
 
 then
-    echo "$2 .... failur"
+    echo "$2 .... -e $R failur $N"
     exit 1
 
 else
-   echo "$2 .... success"
+   echo "$2 .... -e $G success $N"
 fi
 
 }
