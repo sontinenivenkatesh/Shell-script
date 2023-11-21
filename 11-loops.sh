@@ -11,7 +11,7 @@ G="\e[32m"
 Y="\e[33m"
 N="\e[0m"
 
-if [ $user -ne 0 ];
+if [ $USERID -ne 0 ];
 then
      echo -e "$R ERROR: please run this script with root access $N"
      exit 1
@@ -32,7 +32,7 @@ validate(){
 for i in $@
 do
     yum list installed $i -y &>>$LOGFILE
-    if [ $? -ne 0 ];
+    if [ $? -ne 0 ]
     then
          echo "$i is not installed, let's install it" 
          yum install $i -y &>>$LOGFILE
